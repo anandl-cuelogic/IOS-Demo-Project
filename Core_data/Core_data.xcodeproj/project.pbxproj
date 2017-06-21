@@ -14,6 +14,9 @@
 		90A8FA7D1EFA6D0200604713 /* Core_data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90A8FA7B1EFA6D0200604713 /* Core_data.xcdatamodeld */; };
 		90A8FA7F1EFA6D0200604713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A8FA7E1EFA6D0200604713 /* Assets.xcassets */; };
 		90A8FA821EFA6D0200604713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A8FA801EFA6D0200604713 /* LaunchScreen.storyboard */; };
+		90A8FA8A1EFA728700604713 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A8FA891EFA728700604713 /* Storyboard.storyboard */; };
+		90A8FA8D1EFA755500604713 /* DeviceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A8FA8C1EFA755500604713 /* DeviceTableViewController.m */; };
+		90A8FA901EFA77FF00604713 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A8FA8F1EFA77FF00604713 /* DeviceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,11 @@
 		90A8FA7E1EFA6D0200604713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90A8FA811EFA6D0200604713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90A8FA831EFA6D0200604713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A8FA891EFA728700604713 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		90A8FA8B1EFA755500604713 /* DeviceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceTableViewController.h; sourceTree = "<group>"; };
+		90A8FA8C1EFA755500604713 /* DeviceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceTableViewController.m; sourceTree = "<group>"; };
+		90A8FA8E1EFA77FF00604713 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		90A8FA8F1EFA77FF00604713 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,11 @@
 				90A8FA831EFA6D0200604713 /* Info.plist */,
 				90A8FA7B1EFA6D0200604713 /* Core_data.xcdatamodeld */,
 				90A8FA6F1EFA6D0200604713 /* Supporting Files */,
+				90A8FA891EFA728700604713 /* Storyboard.storyboard */,
+				90A8FA8B1EFA755500604713 /* DeviceTableViewController.h */,
+				90A8FA8C1EFA755500604713 /* DeviceTableViewController.m */,
+				90A8FA8E1EFA77FF00604713 /* DeviceDetailViewController.h */,
+				90A8FA8F1EFA77FF00604713 /* DeviceDetailViewController.m */,
 			);
 			path = Core_data;
 			sourceTree = "<group>";
@@ -141,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90A8FA821EFA6D0200604713 /* LaunchScreen.storyboard in Resources */,
+				90A8FA8A1EFA728700604713 /* Storyboard.storyboard in Resources */,
 				90A8FA7F1EFA6D0200604713 /* Assets.xcassets in Resources */,
 				90A8FA7A1EFA6D0200604713 /* Main.storyboard in Resources */,
 			);
@@ -156,6 +170,8 @@
 				90A8FA7D1EFA6D0200604713 /* Core_data.xcdatamodeld in Sources */,
 				90A8FA771EFA6D0200604713 /* ViewController.m in Sources */,
 				90A8FA741EFA6D0200604713 /* AppDelegate.m in Sources */,
+				90A8FA901EFA77FF00604713 /* DeviceDetailViewController.m in Sources */,
+				90A8FA8D1EFA755500604713 /* DeviceTableViewController.m in Sources */,
 				90A8FA711EFA6D0200604713 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
