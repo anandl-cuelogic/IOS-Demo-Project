@@ -12,7 +12,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *versionTextField;
 @property (weak, nonatomic) IBOutlet UITextField *companyTextField;
-
 - (IBAction)cancel:(id)sender;
 - (IBAction)save:(id)sender;
 @end
