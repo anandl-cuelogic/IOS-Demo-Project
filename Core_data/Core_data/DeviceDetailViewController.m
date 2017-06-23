@@ -12,7 +12,7 @@
 #import "AppDelegate.h"
 
 @interface DeviceDetailViewController ()
-@property (strong) NSMutableArray *devices;
+
 @end
 
 @implementation DeviceDetailViewController
