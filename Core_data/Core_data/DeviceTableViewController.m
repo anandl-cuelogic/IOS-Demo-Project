@@ -10,7 +10,9 @@
 #import <CoreData/CoreData.h>
 #import "AppDelegate.h"
 @interface DeviceTableViewController ()
+
 @property (strong) NSMutableArray *devices;
+
 @end
 
 @implementation DeviceTableViewController
@@ -30,14 +32,11 @@
     // Dispose of any resources that can be recreated.
 }
 - (NSManagedObjectContext *)managedObjectContext {
-    
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    
     return appDelegate.persistentContainer.viewContext;
 }
 
 #pragma mark - Table view data source
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
@@ -57,7 +56,6 @@
     NSManagedObjectContext *managedObjectContext = [self managedObjectContext];
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Device"];
     self.devices = [[managedObjectContext executeFetchRequest:fetchRequest error:nil] mutableCopy];
-    
     [self.tableView reloadData];
 }
 
@@ -128,5 +126,4 @@
     // Pass the selected object to the new view controller.
 }
 */
-
 @end
